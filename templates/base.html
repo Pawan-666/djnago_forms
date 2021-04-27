@@ -11,7 +11,17 @@
 
     <header>
 
-      <h1><a href = "{%url 'home' %}">Django blog</a></h1>
+      <div class="nav_left">
+
+        <h1><a href = "{%url 'home' %}">Django blog</a></h1>
+
+      </div>
+
+      <div class="nav_right">
+
+        <a href="{% url 'post_new' %}">+ New Blog Post</a>
+
+      </div>
 
     </header>
 
